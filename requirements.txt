@@ -1,0 +1,8 @@
+# Required
+pillow
+
+# Optional - each enables one feature (see README)
+screeninfo                       # pick a specific monitor / "Other Display"
+mss                              # faster captures
+pywin32; sys_platform == "win32" # clipboard copy + PowerPoint slide import
+# pymupdf                        # faster slide rendering via LibreOffice
